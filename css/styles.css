@@ -2,6 +2,7 @@
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+/* CSS-Змінні */
 :root {
    --title-dark-color: #212121;
    --text-dark-color: #757575;
@@ -12,5 +13,118 @@ font-family: 'Roboto', sans-serif; */
    --text-light-color: rgba(255, 255, 255, 0.6);
    --background-light-color: #F5F5F5;
    --background-gray-color: #F5F4FA;
-   --border-color: #EEEEEE
+   --border-portfolio-color: #EEEEEE;
+   --border-header-color: #ECECEC;
+}
+
+/* Шапка сайту */
+.header {
+   background-color: var(--white-color);
+}
+.logo-header {
+   color: var(--black-color);
+}
+.logo-header > span {
+   color: var(--accent-color);
+}
+.nav {
+   color: var(--title-dark-color);
+}
+.nav:hover,
+.nav:focus,
+.address-header:hover,
+.address-header:focus {
+   color: var(--accent-color);
+}
+.address-header {
+   color: var(--text-dark-color);
+}
+
+/* Герой */
+.hero {
+   background-color: var(--background-dark-color);
+   width: 1600px;
+   height: 600px;
+}
+.hero-title {
+   color: var(--white-color);
+   text-transform: uppercase;
+}
+.hero-button {
+   color: var(--white-color);
+   background-color: var(--accent-color);
+}
+
+/* Особливості */
+.characteristics,
+.works {
+   background-color: var(--background-light-color);
+}
+.characteristic-title {
+   color: var(--title-dark-color);
+}
+.characteristic-text {
+   color: var(--text-dark-color);
+}
+
+/* Чим ми займаємося */
+.works-title {
+   color: var(--title-dark-color);
+}
+
+/* Наша команда */
+.team {
+   background-color: var(--background-gray-color);
+}
+.team-title,
+.card-title {
+   color: var(--title-dark-color);
+}
+.card {
+   background-color: var(--white-color);
+}
+.card-text {
+   color: var(--text-dark-color);
+}
+
+/* Підвал сторінки */
+.footer {
+   background-color: var(--background-dark-color);
+   width: 1600px;
+   height: 252px;
+}
+.logo-footer {
+   color: var(--white-color);
+}
+.logo-footer > span {
+   color: var(--accent-color);
+}
+.map-footer {
+   color: var(--white-color);
+}
+.address-footer {
+   color: var(--text-light-color);
+}
+
+/* Портфоліо */
+.portfolio {
+   background-color: var(--background-light-color);
+}
+.portfolio-button {
+   background-color: var(--background-gray-color);
+   color: var(--title-dark-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+   background-color: var(--accent-color);
+   color: var(--white-color);
+}
+.project {
+   background-color: var(--white-color);
+}
+.project-title {
+   color: var(--title-dark-color);
+}
+.project-text {
+   color: var(--text-dark-color);
 }
