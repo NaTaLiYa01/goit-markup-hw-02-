@@ -34,7 +34,7 @@ body {
 .list {
    list-style: none;
 }
-.this {
+.active {
    color: var(--accent-color);
 }
 
