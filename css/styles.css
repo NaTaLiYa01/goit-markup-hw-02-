@@ -233,6 +233,12 @@ body {
    /* or 171% */
    letter-spacing: 0.03em;
 }
+.map-footer:hover,
+.map-footer:focus,
+.address-footer:hover,
+.address-footer:focus {
+   color: var(--accent-color);
+}
 
 /* Портфоліо */
 .portfolio {
