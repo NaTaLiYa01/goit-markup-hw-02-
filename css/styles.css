@@ -31,9 +31,6 @@ body {
 .list {
    list-style: none;
 }
-.active {
-   color: var(--accent-color);
-}
 
 /* Шапка сайту */
 .header {
@@ -47,12 +44,14 @@ body {
    line-height: 1.19;
    letter-spacing: 0.03em;
 }
-.nav {   
+.nav { 
+   color: var(--title-dark-color);
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
 }
+.active,
 .nav:hover,
 .nav:focus,
 .address-header:hover,
