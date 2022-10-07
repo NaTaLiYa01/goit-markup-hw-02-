@@ -106,10 +106,6 @@ body {
 }
 
 /* Особливості */
-.characteristics,
-.works {
-   background-color: var(--background-light-color);
-}
 .characteristic-title {   
    font-weight: 700;
    font-size: 14px;
@@ -189,9 +185,6 @@ body {
 }
 
 /* Портфоліо */
-.portfolio {
-   background-color: var(--background-light-color);
-}
 .portfolio-button {
    background-color: var(--background-gray-color);   
    font-weight: 500;
