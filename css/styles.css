@@ -22,6 +22,7 @@ body {
 .hero-button,
 .portfolio-button {
    cursor: pointer;
+   font-family: inherit;
 }
 
 .link {
@@ -31,6 +32,14 @@ body {
 .list {
    list-style: none;
 }
+.logo-header,
+.logo-footer {  
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+}
 
 /* Шапка сайту */
 .header {
@@ -38,18 +47,19 @@ body {
 }
 .logo-header {
    color: var(--black-color);
-   font-family: 'Raleway', sans-serif;   
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 1.19;
-   letter-spacing: 0.03em;
 }
-.nav { 
-   color: var(--title-dark-color);
+.nav,
+.address-header {   
    font-weight: 500;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
+}
+.nav {
+   color: var(--title-dark-color);
+}
+.address-header {
+   color: var(--text-dark-color);
 }
 .active,
 .nav:hover,
@@ -58,13 +68,6 @@ body {
 .address-header:focus,
 .logo-header > span {
    color: var(--accent-color);
-}
-.address-header {
-   color: var(--text-dark-color);
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 1.14;
-   letter-spacing: 0.02em;
 }
 
 /* Герой */
@@ -141,22 +144,18 @@ body {
    text-align: center;
    letter-spacing: 0.03em;
 }
-.card-title {   
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.19;   
-   text-align: center;
-   letter-spacing: 0.03em;
-}
 .card {
    background-color: var(--white-color);
-}
-.card-text {
-   color: var(--text-dark-color);   
    font-size: 16px;
-   line-height: 1.19;   
+   line-height: 1.19;
    text-align: center;
    letter-spacing: 0.03em;
+}
+.card-title {
+   font-weight: 500;
+}
+.card-text {
+   color: var(--text-dark-color);
 }
 
 /* Підвал сторінки */
@@ -167,25 +166,19 @@ body {
 }
 .logo-footer {
    color: var(--white-color);
-   font-family: 'Raleway', sans-serif;  
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 1.19;   
-   letter-spacing: 0.03em;
 } 
-.map-footer {
-   color: var(--white-color);  
+.map-footer,
+.address-footer {   
    font-style: normal;  
    font-size: 14px;
    line-height: 1.71;   
    letter-spacing: 0.03em;
 }
+.map-footer {
+   color: var(--white-color);
+}
 .address-footer {
-   color: var(--text-light-color);  
-   font-style: normal;  
-   font-size: 14px;
-   line-height: 1.71;  
-   letter-spacing: 0.03em;
+   color: var(--text-light-color);
 }
 .map-footer:hover,
 .map-footer:focus,
